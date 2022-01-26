@@ -1,0 +1,11 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#background {
+    height: 725px;
+}
+
+#background {
+    background-color:green;
+}
