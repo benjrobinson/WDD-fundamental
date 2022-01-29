@@ -2,10 +2,89 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+body {
+    background-color: #1d3557 ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: darkslategrey;
+}
+nav a {
+    text-align: center;
+    text-decoration: none;
+    line-height: 3em;
+}
+#hero-img {
+    width: 100%;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+#hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+    text-decoration: none;
+}
+main section {
+    text-align: center;
+}
 #background {
     height: 725px;
+    background-color: #457b9d;
 }
-
-#background {
-    background-color:green;
+a:link {
+    color: white;
+}
+a:visited {
+    color: lightgrey;
+}
+a:hover {
+    background-color: lightgrey;
+    color: white;
+}
+.icon {
+    width: 80px;
+}
+footer h3 a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: darkslategrey;
+}
+ {
+    background-color: darkslategrey;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+a.book {
+    text-decoration: none;
+}
+a.join {
+    text-decoration: none;
+}
+.home-title {
+    color: white;
+}
+h4 {
+    color: white;
+}
+.msg {
+    background-color: darkslategrey;
+}
+.msg h2 {
+    color: white;
+}
+.msg p {
+    color: white;
+}
+footer h3 {
+    color: white;
+}
+.mountains-card h2 {
+    background-color: darkslategrey;
 }
