@@ -10,6 +10,9 @@ body {
 header {
     background-color: darkslategrey;
 }
+.logo {
+    width: 80px;
+}
 nav a {
     text-align: center;
     text-decoration: none;
@@ -85,6 +88,6 @@ h4 {
 footer h3 {
     color: white;
 }
-.mountains-card h2 {
+.mountains {
     background-color: darkslategrey;
 }
