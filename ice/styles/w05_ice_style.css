@@ -1,0 +1,12 @@
+main {
+    background-color: rgb(59, 59, 59);
+}
+.banner {
+    margin: 20px;
+}
+.circles img {
+    max-width: 250px;
+    margin: 50px;
+    border: 15px solid black;
+    border-radius: 50%;
+}

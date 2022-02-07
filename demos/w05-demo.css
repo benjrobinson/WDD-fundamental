@@ -1,0 +1,22 @@
+.first-section {
+    width: 500px;
+    border: 5px solid brown;
+    padding: 40px;
+    margin: 50px;
+    background-color: tan;
+    border-style: solid;
+    border-radius: 10%;
+    
+}
+#picture {
+    width: 300px;
+    border: 10px solid yellowgreen;
+    padding: 60px;
+    margin: 50px;
+    background-color: darkolivegreen;
+    border-style: groove;
+
+}
+p {
+    margin: 0%;
+}

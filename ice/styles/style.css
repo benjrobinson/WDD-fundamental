@@ -1,0 +1,46 @@
+body {
+    background-color: pink;
+}
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.portrait {
+    max-width: 30%;
+    
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+section.top {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+li {
+    font-family: Arial, Helvetica, sans-serif
+    font-weight: bold;
+    padding: 0.5em 0; /* top/bottom left/right */
+}
+.nelson_quote {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+
+}
+.quote_caption {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#top {
+    color: black;
+}
+h1 :hover {
+    background-color: white;
+}
