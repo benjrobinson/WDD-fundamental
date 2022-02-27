@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex demo</title>
+
+    <style>
+        header {
+            background-color: rgb(92, 55, 7);
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            padding: 0.8rem;
+            display: inline-block;
+
+        }
+        a:hover {
+            color: rgb(92, 55, 7);
+            background-color: white;
+
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+            /*flex-wrap: wrap;*/
+
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .flex-container section {
+            flex: 200px;
+            border: 1px solid black;
+            padding: 1em;
+        }
+        @media screen and (max-width: 400px) {
+            nav{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Page 1</a>
+            <a href="#">Page 2</a>
+            <a href="#">Page 3</a>
+            <a href="#">Page 4</a>
+            <a href="#">Page 5</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Flex Demo</h1>
+        <div class="flex-container">
+            <section>
+                <h2>Section 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, enim sit eos ipsa voluptatum ea rem asperiores, error consequatur labore voluptatem facilis ad repudiandae amet, maiores cumque! Ab, dolorum iusto.</p>
+            </section>
+            <section>
+                <h2>Section 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, enim sit eos ipsa voluptatum ea rem asperiores, error consequatur labore voluptatem facilis ad repudiandae amet, maiores cumque! Ab, dolorum iusto.</p>
+            </section>
+            <section>
+                <h2>Section 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, enim sit eos ipsa voluptatum ea rem asperiores, error consequatur labore voluptatem facilis ad repudiandae amet, maiores cumque! Ab, dolorum iusto.</p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
