@@ -1,0 +1,24 @@
+main {
+    margin: 0 auto;
+    height: 925px;
+}
+#content {
+    background-color: grey;
+}
+.title-image {
+    box-sizing: border-box;
+    border: 10px solid black;
+    padding: 10px;
+    background-color: tan;
+    border-radius: 50%;
+}
+.title {
+    font-size: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.more-pictures {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 100px);
+}

@@ -1,0 +1,37 @@
+body {
+    background-color: #1e1e1e;
+}
+
+article {
+    border-radius: 20px;
+    background-color: white;
+    max-width: 300px;
+    margin: 0 auto;
+}   
+image {
+    border-radius: 20px;
+}
+.under-image {
+    color: lightblue;
+}
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: rgb(15, 97, 124);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+

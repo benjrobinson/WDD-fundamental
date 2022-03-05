@@ -213,6 +213,31 @@ footer h3 {
     color: white;
 }
 
+
+/*page 2 */
+
+.river-heading {
+    text-align: center;
+    font-size: 2em;
+}
+
+.rivers1 {
+    font-size: 1.5em;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.river-pic {
+    border: 10px solid #a8dadc;
+    transition: transform .5s;
+}
+
+.river-pic :hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
