@@ -22,7 +22,7 @@
     font-family: overpass, Arial, Helvetica;
 }
 p {
-    margin: 20%;
+    margin: 150px 150px 150px 150px;
     margin-bottom: 0%;
     font-family: source sans pro, Arial, Helvetica;
     font-size: 1.5em;
@@ -89,4 +89,25 @@ nav a {
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
+  }
+  .bulk {
+      font-size: 3em;
+  }
+  .cut {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-size: 3em;
+      text-align: center;
+  }
+  .bulking {
+      text-align: center;
+  }
+  .bulking img {
+      margin-top: 150px;
+  }
+  .content img {
+    border: 5px solid #fca311;
+  }
+  .cutting img {
+      margin-top: 150px;
   }
