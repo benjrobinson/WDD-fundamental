@@ -111,3 +111,38 @@ nav a {
   .cutting img {
       margin-top: 150px;
   }
+ .protein h3 {
+     margin-top: 40px;
+     font-size: 3em;
+ }
+ .preworkout h3 {
+     margin-top: 40px;
+     font-size: 3em;
+ }
+ .clothes h3 {
+     margin-top: 40px;
+     font-size: 3em;
+ }
+ .protein {
+     text-align: center;
+ }
+ .preworkout {
+     text-align: center;
+ }
+ .clothes {
+     text-align: center;
+ }
+ .shop-head h1 {
+     font-size: 3em;
+     text-align: center;
+ }
+ .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic9 {
+     width: 150px;
+     height: 150px;
+ }
+  #cart {
+    margin-left: 830px;
+    border: #333;
+    background-color: #333;
+    overflow: hidden;
+  }
